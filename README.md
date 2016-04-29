@@ -13,10 +13,12 @@ Convert DICOM SR into XML using DCMTK dsr2xml command line tool [2].
 
 Use `xsltproc` to apply the XSLT transformation as follows.
 
+```
 % xsltproc -maxdepth 10000 --nonet \
-     -o tumor_User3_SemiAuto_Trial2.csv \
-     dicomsr_fromdsr2xml_to_csv.xsl \
-     tumor_User3_SemiAuto_Trial2.xml
+  -o tumor_User3_SemiAuto_Trial2.csv \
+  dicomsr_fromdsr2xml_to_csv.xsl \
+  tumor_User3_SemiAuto_Trial2.xml
+```
 
 # Credits
 
