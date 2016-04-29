@@ -29,4 +29,5 @@ Development was supported in part by NIH via U24 CA180918, Quantitative Image In
 # References
 
 [1] http://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_A.html#table_TID_1500
+
 [2] http://support.dcmtk.org/docs/dsr2xml.html
